@@ -5,10 +5,7 @@
 <template>
  
   <!-- un encabezado -->
-  <header class="container-fluid bg-dark d-flex justify-content-center">
-    <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"
-      class="text-liht md-0 p-2 fs-5 text-white "> BARISTAS </p>
-  </header>
+ 
 
   <!-- creamos un menu -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary p-3 " id="menu">
@@ -232,6 +229,30 @@
 </template>
 
 <style scoped>
+.icon-button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #cd966c;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.icon-button i {
+margin-right: 10px;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+
+}
+#menu li > a{
+    font-size: 15px;
+    font-weight: bold;
+    color:black;
+}
 
 
 </style>

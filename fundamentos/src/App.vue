@@ -1,10 +1,10 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import PaginaPrincipal from './components/PaginaPrincipal.vue'
 </script>
 
 <template>
  
-  <HelloWorld msg="Vite + Vue" />
+  <PaginaPrincipal msg="Vite + Vue"/>
 </template>
 
 <style scoped>

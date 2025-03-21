@@ -1,12 +1,11 @@
 <script setup>
 
+import HeaderBar from './HeaderBar.vue';
+
 </script>
 
 <template>
- 
-  <!-- un encabezado -->
- 
-
+<HeaderBar/>
   <!-- creamos un menu -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary p-3 " id="menu">
     <div class="container-fluid">
